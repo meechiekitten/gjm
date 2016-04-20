@@ -25,3 +25,15 @@
   .dropdown-menu {
     margin-top: 50px;
   }
+
+  ul
+  {list-style-type: none;}
+
+textarea.form-control {
+  width:300px;
+  margin: auto;
+}
+
+#container text-center {
+  margin: 40px 0px 40px 0px;
+}
