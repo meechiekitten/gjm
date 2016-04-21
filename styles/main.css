@@ -2,6 +2,12 @@
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
+      background-color: #76BFA0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
     }
 
     /* Add a gray background color and some padding to the footer */
@@ -13,7 +19,6 @@
   .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
-      min-height:200px;
   }
 
   /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -34,6 +39,6 @@ textarea.form-control {
   margin: auto;
 }
 
-#container text-center {
+.container text-center {
   margin: 40px 0px 40px 0px;
 }
