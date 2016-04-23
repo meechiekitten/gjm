@@ -50,3 +50,37 @@ textarea.form-control {
   body {
     font: 12px "Montserrat", sans-serif;
   }
+  #social-buttons button {
+    color: white;
+  }
+  #social-buttons {
+    margin-top: 50px;
+  }
+  .btn-twitter {
+    background-color: #00acee;
+    border-color: #009ad5
+  }
+  .btn-facebook {
+    background-color: #4868ac;
+    border-color: #314776;
+  }
+  .btn-google {
+    background-color: #b62f26;
+    border-color: #b62f26;
+  }
+  #section1 {
+    padding-top:50px;
+    height:200px;
+  }
+  #section2 {
+    padding-top:50px;
+    height:500px;
+    }
+  .green {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 40px;
+    /*color: #76BFA0;*/
+  }
+  .col-sm-4 {
+    border: 0 5px 0 5px;
+  }
