@@ -1,24 +1,51 @@
+body {
+  /*font: 12px "Montserrat", sans-serif;*/
+  font: 400 15px "Lato", sans-serif;
+}
 /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
       background-color: #76BFA0;
-      padding-top: 5px;
-      padding-bottom: 10px;
+      padding-top: 2px;
+      padding-bottom: 1px;
       border: 0;
       font-size: 12px;
       letter-spacing: 5px;
     }
+  h3 {
+    font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+      letter-spacing: 4px;
+  }
+  #myCarousel p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #303030;
+    letter-spacing: 4px;
+    }
 
     /* Add a gray background color and some padding to the footer */
     footer {
-      background-color: #f2f2f2;
+      background-color: #d7d7d7;
       padding: 25px;
     }
 
   .carousel-inner img {
       width: 100%; /* Set width to 100% */
-      margin: auto;
+      height: 100%;
+      padding-top: 40px;
   }
 
   /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -28,7 +55,7 @@
     }
   }
   .dropdown-menu {
-    margin-top: 50px;
+    margin-top: 80px;
   }
 
   ul
@@ -39,17 +66,12 @@ textarea.form-control {
   margin: auto;
 }
 
-.container {
-  margin: 40px 0px 0px 0px;
-  }
 .bg-grey {
-      background-color: #f6f6f6;
-      margin-left: 0;
-      margin-right: 0;
+      background-color: #d7d7d7;
+      padding: 25px;
+      border: 10px;
   }
-  body {
-    font: 12px "Montserrat", sans-serif;
-  }
+
   #social-buttons button {
     color: white;
   }
@@ -69,11 +91,23 @@ textarea.form-control {
     border-color: #b62f26;
   }
   #section1 {
-    padding-top:50px;
+    padding-top:5px;
+    padding-bottom: 20px;
     height:200px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  #section1 h3 {
+    text-align: center;
+  }
+  #video {
+    padding-top: 50px;
+    margin-top: 0px;
   }
   #section2 {
     padding-top:50px;
+    padding-bottom: 50px;
     height:500px;
     }
   .green {
@@ -81,6 +115,15 @@ textarea.form-control {
     font-size: 40px;
     /*color: #76BFA0;*/
   }
-  .col-sm-4 {
-    border: 0 5px 0 5px;
+  .col-md-4 {
+    padding-bottom: 20px;
   }
+.col-sm-4 h3 {
+  text-align: center;
+}
+.col-sm-5 {
+  text-align: left;
+}
+#comments {
+  text-align: left;
+}
