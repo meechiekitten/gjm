@@ -129,6 +129,12 @@ textarea.form-control {
   text-align: left;
 }
 
+.thumbnail {
+  box-sizing: 20px;
+  padding-bottom: 10px;
+
+}
+
 blockquote {
     font-family: Georgia, serif;
     position: relative;
